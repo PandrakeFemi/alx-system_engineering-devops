@@ -9,3 +9,4 @@ chmod ugo+x - A Script that adds execution permission to everbody
 chmod 007 - A script that gives only other users permission
 chmod 753 - script that sets the mode to rwxr-x-wx
 chmod --reference=(any mode given)> to set the mode of a file to be the same
+chmod ugo+x */
