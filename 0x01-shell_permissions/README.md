@@ -9,4 +9,5 @@ chmod ugo+x - A Script that adds execution permission to everbody
 chmod 007 - A script that gives only other users permission
 chmod 753 - script that sets the mode to rwxr-x-wx
 chmod --reference=(any mode given)> to set the mode of a file to be the same
-chmod ugo+x */
+chmod ugo+x */- A script that executes permission to all subdirectories of the current directory
+mkdir -m 751 my_dir - A script that creates a directory with permission 751 in working directory
