@@ -6,3 +6,4 @@ touch hello - A script that creates an empty file hello
 chmod u+x hello - A script that adds execute permission to the owner file
 chmod ug+x,o+r- A script that adds execute permission,read permissions to other users.
 chmod ugo+x - A Script that adds execution permission to everbody
+chmod 007 - A script that gives only other users permission
